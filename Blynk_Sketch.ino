@@ -1,16 +1,25 @@
 /*************************************************************
 
-  This is a simple demo of sending and receiving some data.
-  Be sure to check out other examples!
+Kumar Satyam
+github.com/KrSatyam04/Voice_Controlled_LED_Light
+
+
+This is the sketch for connceting the Arduino Uno with Blynk.
+The Arduino Uno will be set to automatically connect with wifi
+using credentials mentioned below.
+And will be able to communicate with BLYNK Servers.
+
+Remember to use Your Blynk Authentication Token, and SSID and
+Password of your hotspot/wifi.
  *************************************************************/
 
-// Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
-// See the Device Info tab, or Template settings
-
-#define BLYNK_AUTH_TOKEN            "gnl9jkOniF_z3kyZ2Hl8UxTDigp3xRtI"
+// Auth Token is provided by the Blynk.Cloud
 
 
-// Comment this out to disable prints and save space
+#define BLYNK_AUTH_TOKEN            "gnl9jkOniF_z3kyZ2Hl8UxTDigp*****"  
+
+// Replace the auth token with your own received over email from Blynk.
+
 #define BLYNK_PRINT Serial
 
 
